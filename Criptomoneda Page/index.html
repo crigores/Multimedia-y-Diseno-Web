@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+		integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+		integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+		crossorigin="anonymous"></script>
+	<title>Cripto Page</title>
+</head>
+
+<body>
+	<!-- BARRA DE NAVEGACION -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">Criptomonedas</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#conceptos">Conceptos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#cuenta">Toma en Cuenta</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#tipos">Tipos</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#galeria">Galería</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#monederos">Monederos Populares</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="../index.html">Regresar</a>
+					</li>
+				</ul>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-warning" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-- BANNER -->
+	<div class="mb-3">
+		<img width="100%"
+			src="https://thumbs.dreamstime.com/b/banner-bitcoin-en-la-mano-sobre-fondo-negro-oro-criptomoneda-moneda-negocio-y-finanzas-concepto-copia-espacio-cripto-foto-218092373.jpg"
+			alt="">
+	</div>
+
+	<!-- TITULO - CONCEPTOS PRINCIPALES  -->
+	<div class="row p-4 bg-black text-white mb-3" id="conceptos">
+		<div class="col text-center">
+			<h2>Conceptos Principales</h2>
+		</div>
+	</div>
+
+	<!-- ACCORDION FEW QUESTIONS -->
+	<div class="row justify-content-md-center mb-4">
+		<div class="col col-sm-12 col-md-9">
+			<div class="accordion" id="accordionExample">
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							¿Qué son las criptomonedas?
+						</button>
+					</h2>
+					<div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<p>
+								Una criptomoneda es un activo digital que emplea un cifrado criptográfico para
+								garantizar su
+								titularidad y asegurar la integridad de las transacciones, y controlar la creación de
+								unidades
+								adicionales, es decir, evitar que alguien pueda hacer copias como haríamos, por ejemplo,
+								con una
+								foto. Estas monedas no existen de forma física: se almacenan en una cartera digital.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingTwo">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							¿Cómo funcionan las criptomonedas?
+						</button>
+					</h2>
+					<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<p>
+								Las criptomonedas cuentan con diversas características diferenciadoras respecto a los
+								sistemas
+								tradicionales: no están reguladas ni controladas por ninguna institución y no requieren
+								de
+								intermediaros en las transacciones. Se usa una base de datos descentralizada, blockchain
+								o
+								registro contable compartido, para el control de estas transacciones.
+
+								Al hilo de la regulación, las criptomonedas no tienen la consideración de medio de pago,
+								no
+								cuentan con el respaldo de un banco central u otras autoridades públicas y no están
+								cubiertas
+								por mecanismos de protección al cliente como el Fondo de Garantía de Depósitos o el
+								Fondo de
+								Garantía de Inversores.
+
+								En cuanto a la operativa de estas monedas digitales, es muy importante recordar que una
+								vez que
+								se realiza la transacción con criptomonedas, es decir, cuando se compra o vende el
+								activo
+								digital, no es posible cancelar la operación porque el blockchain es un registro que no
+								permite
+								borrar datos. Para “revertir” una transacción es necesario ejecutar la contraria.
+
+								Ya que estas monedas no están disponibles de forma física, hay que recurrir a un
+								servicio de
+								monedero digital de criptomonedas, que no está regulados para almacenarlas.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingThree">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							¿Cuántos tipos de monederos digitales existen?
+						</button>
+					</h2>
+					<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<p>
+								Un monedero digital o wallet es, en realidad, un software o aplicación donde es posible
+								almacenar, enviar y recibir criptomonedas. Lo cierto es que a diferencia de un monedero
+								de dinero físico, lo que realmente se almacena en los wallets o monederos digitales son
+								las claves que nos dan la propiedad y derecho sobre las criptomonedas, y nos permiten
+								operar con ellas. Dicho de otra forma, basta con conocer las claves para poder
+								transferir las criptomonedas, y la pérdida o robo de las claves puede suponer la pérdida
+								de las criptomonedas, sin posibilidad de recuperarlas.
+
+								Hay dos tipos de monederos: existen los calientes y los fríos. La diferencia entre ambos
+								es que los primeros están conectados a internet, y los segundos no. Así, dentro de los
+								monederos calientes encontramos los monederos web, los monederos móviles y los monederos
+								de escritorio, este último, solo en el caso de que el ordenador esté conectado a
+								internet. Por el contrario, dentro de los monederos fríos existen los monederos hardware
+								y los monederos de papel, que es simplemente la impresión en papel de la clave privada.
+
+								Estos servicios de custodia no están regulados ni supervisados.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingFour">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+							data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+							¿Cómo se determina el valor de una criptomoneda?
+						</button>
+					</h2>
+					<div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+						data-bs-parent="#accordionExample">
+						<div class="accordion-body">
+							<p>
+								El valor de las criptomonedas varía en función de la oferta, de la demanda, y del
+								compromiso de los usuarios. Este valor se forma en ausencia de mecanismos eficaces que
+								impidan su manipulación, como los presentes en los mercados regulados de valores. En
+								muchas ocasiones los precios se forman también sin información pública que los respalde.
+								Te recomendamos leer este comunicado del Banco de España y la Comisión Nacional del
+								Mercado de Valores (CNMV) sobre los riesgos de comprar criptomonedas.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- CAROUSEL -->
+	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+				aria-current="true" aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+				aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+				aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="https://images.pexels.com/photos/8369659/pexels-photo-8369659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+					class="d-block w-100" alt="..." width="100%" height="600px">
+			</div>
+			<div class="carousel-item">
+				<img src="https://images.pexels.com/photos/6777560/pexels-photo-6777560.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+					class="d-block w-100" alt="..." width="100%" height="600px">
+			</div>
+			<div class="carousel-item">
+				<img src="https://images.pexels.com/photos/7788009/pexels-photo-7788009.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+					class="d-block w-100" alt="..." width="100%" height="600px">
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+			data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+			data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<!-- TITULO - DEBES TOMAR EN CUENTA LO SIGUIENTE -->
+	<div class="row p-4 bg-black text-white mt-3 mb-3" id="cuenta">
+		<div class="col text-center">
+			<h2>Debes tomar en cuenta lo siguiente</h2>
+		</div>
+	</div>
+
+	<!-- CARDS - CONTENT -->
+	<div class="row">
+		<div class="col col-sm-12 col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">Las criptomonedas usan blockchain</h5>
+					<p class="card-text pt-2">Las criptomonedas funcionan mediante el registro contable compartido o
+						blockchain. Esta tecnología les aporta un elevado sistema de seguridad con capacidad para
+						evitar, por ejemplo, que un mismo activo digital se pueda transferir en dos ocasiones o que sea
+						falsificado. La tecnología blockchain funciona como un gran libro de contabilidad donde se
+						pueden registrar y almacenar cantidades ingentes de información. Toda ella está compartida en la
+						red y protegida de tal forma que todos los datos que alberga no se pueden alterar ni eliminar.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col col-sm-12 col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">¿Qué significa minar criptomonedas?</h5>
+					<p class="card-text pt-2">Este concepto hace referencia al proceso necesario para validar las
+						operaciones que se llevan a cabo mediante este tipo de activos digitales. Por ejemplo, si
+						tomamos el caso práctico de una moneda bitcoin: su minería se basaría en la validación y el
+						registro de las transacciones en el registro blockchain.
+
+						En definitiva, minar criptomonedas supone resolver con éxito los problemas matemáticos que se
+						presentan. Los mineros que lo han llevado a cabo obtienen a cambio criptomonedas. </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col col-sm-12 col-md-4">
+			<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">¿Qué es un bitcoin?</h5>
+					<p class="card-text pt-2">Bitcoin es el nombre que recibió la primera criptomoneda. Data del año
+						2009 y nació de la mano de una persona o grupo de personas que se hicieron llamar Satoshi
+						Nakamoto, quienes lograron crear el bitcoin bajo la tecnología blockchain, que ellos mismos
+						inventaron. Al igual que el resto de criptomonedas, no existe ningún tipo de regulación para
+						ella</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- TITULO - TIPOS DE CRIPTOMONEDA -->
+	<div class="row p-4 bg-black text-white mt-3 mb-3" id="tipos">
+		<div class="col text-center">
+			<h2>¿Cuántos tipos de criptomonedas hay?</h2>
+		</div>
+	</div>
+
+	<!-- LISTA DE CRIPTOMONEDAS -->
+	<div class="row justify-content-md-center">
+		<div class="col col-sm-12 col-md-6">
+			<ul class="list-group">
+				<li class="list-group-item">
+					Bitcoin
+				</li>
+				<li class="list-group-item">
+					Ethereum
+				</li>
+				<li class="list-group-item">
+					Ripple XRP
+				</li>
+				<li class="list-group-item">
+					Litecoin
+				</li>
+				<li class="list-group-item">
+					NEO
+				</li>
+				<li class="list-group-item">
+					IOTA
+				</li>
+				<li class="list-group-item">
+					Entre Otros
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+	<!-- TITULO - GALERIA -->
+	<div class="row p-4 bg-black text-white mt-3 mb-3" id="galeria">
+		<div class="col text-center">
+			<h2>Galería</h2>
+		</div>
+	</div>
+
+	<!-- GALERIA RESPONSIVE -->
+	<div class="container">
+		<div class="row">
+			<div class="col col-sm-12">
+				<img width="100%" class="rounded" src="https://s1.eestatic.com/2018/01/05/actualidad/actualidad_274985849_130092639_1024x576.jpg" alt="">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<img width="100%" class="rounded" src="https://www.santander.com/es/stories/guia-para-saber-que-son-las-criptomonedas/_jcr_content/root/story/bottomParsys/resource_composer/resource-composer__composition-three-2.coreimg.jpeg/1612548160888/im-storie-guia-para-saber-que-son-las-criptomonedas-3.jpeg" alt="">
+			</div>
+			<div class="col">
+				<img width="100%" class="rounded" src="https://www.santander.com/es/stories/guia-para-saber-que-son-las-criptomonedas/_jcr_content/root/story/bottomParsys/resource_composer/resource-composer__composition-three-3.coreimg.jpeg/1612548169915/im-storie-guia-para-saber-que-son-las-criptomonedas-1.jpeg" alt="">
+			</div>
+		</div>
+	</div>
+
+	<!-- TITULO - MONEDEROS MAS POPULARES -->
+	<div class="row p-4 bg-black text-white mt-3 mb-3" id="monederos">
+		<div class="col text-center">
+			<h2>Los Monederos Más Populares </h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<!-- ELECTRUM -->
+		<div class="col">
+			<div class="card">
+				<img src="https://play-lh.googleusercontent.com/2dEx8K8AnAa8L0xvwKDBQXA--DdTsCqxEJmNvG49KyO5x4YSgQFbZPGANdYYITHtIro" class="card-img-top" alt="..." width="100%">
+				<div class="card-body">
+				  <h5 class="card-title">Electrum</h5>
+				  <p class="card-text">Es una wallet que brinda todo el control sobre sus activos criptográficos. Electrum emplea el sistema de verificación de pagos SPV, permite establecer la autenticación de 2 factores (2FA) y es de código abierto. Ofrece un excelente nivel de seguridad, ya que los desarrolladores participan en la composición y revisión del código, reduciendo la posibilidad de malware dentro del software. Electrum es compatible con los sistemas operativos de Windows, Mac, Linux y Android.</p>
+				  <a href="https://electrum.org/#home" class="btn btn-primary">Go Electrum</a>
+				</div>
+			  </div>
+		</div>
+
+		<!-- BITPAY  -->
+		<div class="col">
+			<div class="card">
+				<img src="https://s3.cointelegraph.com/storage/uploads/view/0b0239354a6d4462fccf797f29cbd763.png" class="card-img-top" alt="..." width="100%">
+				<div class="card-body">
+				  <h5 class="card-title">BitPay</h5>
+				  <p class="card-text">BitPay, te permite tomar el control sobre tus activos y asegurarlos con la implementación del cifrado multi-sig. Ofrece un servicio de código abierto y sin custodias, por lo que no correrá el riesgo de que terceros bloqueen sus fondos. BitPay es otra de la mejores wallets y lo vemos en su amplio soporte. Además ofrece la capacidad de monedero determinista (HD), generando una semilla y a partir de ella, creando múltiples direcciones dificultando la posibilidad de que espíen o rastreen sus pagos.</p>
+				  <a href="https://bitpay.com/" class="btn btn-primary">Go BitPay</a>
+				</div>
+			  </div>
+		</div>
+
+		<!-- EXODUS -->
+		<div class="col">
+			<div class="card">
+				<img src="https://play-lh.googleusercontent.com/IjPzhdFXpygSue3ciFDJr-201PhDt6YuJIufwFeFbYp_UqwqxSgb23IDDObA6hPYxg" class="card-img-top" alt="..." width="100%">
+				<div class="card-body">
+				  <h5 class="card-title">Exodus</h5>
+				  <p class="card-text">Una wallet multimoneda diseñada para admitir las criptomonedas principales como Bitcoin, Ethereum, Ripple, Litecoin y Dash. No obstante, su principal desventaja es que no es de código abierto. Sin embargo, Exodus cuenta con una interfaz de usuario muy simple y sencilla de entender, siendo una de las mejores wallets para principiantes que no estén muy familiarizados con el mundo de las criptomonedas. Es compatible con las plataformas de Windows y Mac para ordenador e iOS y Android para teléfonos móviles.</p>
+				  <a href="https://www.exodus.com/" class="btn btn-primary">Go Exodus</a>
+				</div>
+			  </div>
+		</div>
+
+		<!-- ARMORY -->
+		<div class="col">
+			<div class="card">
+				<img src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/7W36KWG6BNGB3EEYJHN4N5C3EM.jpg" class="card-img-top" alt="..." width="100%">
+				<div class="card-body">
+				  <h5 class="card-title">Armory</h5>
+				  <p class="card-text">Una wallet de código abierto que permite el almacenamiento en frío y soporte para multi-sig. Es ideal para la implementación tanto personal como empresarial, ya que cuenta con equipo de soporte especializado en criptografía, seguridad y administración de activos. Armory es pionera en el uso de wallets de ordenador fuera de línea, por lo que brinda un nivel de seguridad y resguardo excepcional. Esta wallet es compatible con las plataformas de Windows, Linux y Mac.</p>
+				  <a href="https://www.bitcoinarmory.com/" class="btn btn-primary">Go Armory</a>
+				</div>
+			  </div>
+		</div>
+	</div>
+</body>
+</html>
